@@ -1,0 +1,10 @@
+name: Print Message Example
+
+on: [push]
+
+jobs:
+  print_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo a message
+        run: echo "Hello World! This is my GitHub Action message."
